@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<S:Body>
+		<ns2:searchQuoteResponse
+			xmlns:ns2="http://version5_5.services.view.jdquote.deere.com">
+			<searchQuoteReturn>
+				<quotes>
+					<customerBusinessName>HOOVER INC</customerBusinessName>
+					<customerFirstName></customerFirstName>
+					<customerLastName></customerLastName>
+					<expirationDate>2020-03-26T00:00:00.000-05:00</expirationDate>
+					<lastModifiedDate>2020-04-29T07:34:05.478-05:00</lastModifiedDate>
+					<quoteId>20871154</quoteId>
+					<quoteName>test_lease</quoteName>
+					<quoteStatus>Expired</quoteStatus>
+					<quoteType>Purchase</quoteType>
+					<salesPersonData>
+						<deereUserId>UJ73803</deereUserId>
+						<firstName>UTKARSH</firstName>
+						<lastName>JAIN</lastName>
+						<middleName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+							xsi:nil="true"></middleName>
+						<emailAddress>JainUtkarsh@JohnDeere.com</emailAddress>
+					</salesPersonData>
+					<dealerAccountNumber>UJ7380</dealerAccountNumber>
+					<poNumber>6715005</poNumber>
+					<signedOnDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true"></signedOnDate>
+					<equipmentSummaryData>
+						<equipSerialNum>137540</equipSerialNum>
+						<modelName>2013 JOHN DEERE 3038E TRACTOR</modelName>
+						<invoiceNumber></invoiceNumber>
+						<quantity>1</quantity>
+						<serviceOnlyEquipment>false</serviceOnlyEquipment>
+					</equipmentSummaryData>
+				</quotes>
+			</searchQuoteReturn>
+		</ns2:searchQuoteResponse>
+	</S:Body>
+</S:Envelope>

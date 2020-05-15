@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version6_6.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:getMasterQuotes>
+         <masterSearchCriteriaData>
+            <endModifiedDate>06/25/2019</endModifiedDate>
+            <startModifiedDate>05/03/2016</startModifiedDate>
+            <errorMessage>
+               <errorId>?</errorId>
+               <errorMessage>?</errorMessage>
+            </errorMessage>
+            <dealerRacfID>?</dealerRacfID>
+            <quoteId>0</quoteId>
+            <statusCode>?</statusCode>
+            <dealerCompanyMasterIndicator>2</dealerCompanyMasterIndicator>
+         </masterSearchCriteriaData>
+      </ver:getMasterQuotes>
+   </soapenv:Body>
+</soapenv:Envelope>

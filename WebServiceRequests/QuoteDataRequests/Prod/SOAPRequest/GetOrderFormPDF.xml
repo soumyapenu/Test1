@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version5_5.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:getOrderFormPdf>
+         <quoteId>18208465</quoteId>
+         <poNumber>05824244</poNumber>
+      </ver:getOrderFormPdf>
+   </soapenv:Body>

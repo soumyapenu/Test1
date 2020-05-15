@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version6_6.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:getQuote>
+         <searchQuote>
+            <endModifiedDate>06/07/2019</endModifiedDate>
+            <startModifiedDate>06/07/2019</startModifiedDate>
+            <errorMessage>
+               <errorId>?</errorId>
+               <errorMessage>?</errorMessage>
+            </errorMessage>
+            <dealerRacfID>XBG1524</dealerRacfID>
+            <quoteId>19793554</quoteId>
+            <statusCode>1</statusCode>
+         </searchQuote>
+      </ver:getQuote>
+   </soapenv:Body>
+</soapenv:Envelope>

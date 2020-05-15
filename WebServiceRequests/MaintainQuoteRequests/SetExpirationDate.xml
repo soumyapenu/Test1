@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version6_6.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:setExpirationDate>
+         <inputData>
+            <expirationDate>2020-07-15</expirationDate>
+            <quoteId>20871943</quoteId>
+            <racfId>X041870</racfId>
+            <errorMessage>
+               <errorId>?</errorId>
+               <errorMessage>?</errorMessage>
+            </errorMessage>
+            <expirationDateUpdateSuccess>?</expirationDateUpdateSuccess>
+         </inputData>
+      </ver:setExpirationDate>
+   </soapenv:Body>
+</soapenv:Envelope>

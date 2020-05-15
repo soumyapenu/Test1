@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version6_6.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:getTradeInData>
+         <tradeInDataIP>
+            <quoteId>14127319</quoteId>
+            <racfId>X041870</racfId>
+            <endDate></endDate>
+            <startDate></startDate>
+         </tradeInDataIP>
+      </ver:getTradeInData>
+   </soapenv:Body>
+</soapenv:Envelope>

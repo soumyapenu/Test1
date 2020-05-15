@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<S:Body>
+		<ns3:getMasterQuotesResponse
+			xmlns:ns3="http://version6_6.services.view.jdquote.deere.com"
+			xmlns:ns2="http://version6_6.beans.services.view.jdquote.deere.com">
+			<getMasterQuotesReturn>
+				<creationDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></creationDate>
+				<customerName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></customerName>
+				<expirationDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></expirationDate>
+				<quoteId>0</quoteId>
+				<quoteName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></quoteName>
+				<salesPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></salesPerson>
+				<status xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></status>
+				<storeLocation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></storeLocation>
+				<totalEquipmentCost>0.0</totalEquipmentCost>
+				<deleteSuccess>false</deleteSuccess>
+				<businessName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></businessName>
+				<categoryID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></categoryID>
+				<dealerSpecifiedModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></dealerSpecifiedModel>
+				<makeID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></makeID>
+				<modelID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></modelID>
+				<subCategoryID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></subCategoryID>
+				<totalEquipmentList>0.0</totalEquipmentList>
+				<quoteType>0</quoteType>
+				<customerTRAXEditQuoteURL
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"></customerTRAXEditQuoteURL>
+				<complimentaryEntityId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></complimentaryEntityId>
+				<entityId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></entityId>
+				<customerNotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></customerNotes>
+				<totalNetTradeValue>0.0</totalNetTradeValue>
+				<deleteIndicator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true"></deleteIndicator>
+				<errorMessage>
+					<errorId>0</errorId>
+					<errorMessage>&lt;b&gt;&lt;u&gt; Unified User Error
+						&lt;/u&gt;&lt;/b&gt;&lt;BR&gt;&lt;BR&gt;Error occured while
+						retrieving user from UUC. User RacfId :
+						&lt;b&gt;?&lt;/b&gt;&lt;BR&gt;&lt;BR&gt; Detail Message:
+						SOARTMBroker.parseSOARTMResultHeader(...) : hasProbableUserError()
+						; 02-1: userId not found for key ? - Back End Message Text: Input
+						User Type is null. Unable to determine user type for user id : ? .
+						; Back End Message Text: Usage cost is 0 ;
+						&lt;BR&gt;&lt;BR&gt;Please check the logs for detail error
+						message.</errorMessage>
+				</errorMessage>
+			</getMasterQuotesReturn>
+		</ns3:getMasterQuotesResponse>
+	</S:Body>
+</S:Envelope>

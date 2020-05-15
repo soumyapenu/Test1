@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version6_6.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:deleteEquipment>
+         <quoteID>14127323</quoteID>
+         <equipmentID>28105766</equipmentID>
+         <dealerID>X041870</dealerID>
+      </ver:deleteEquipment>
+   </soapenv:Body>
+</soapenv:Envelope>

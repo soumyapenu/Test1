@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version6_6.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:createQuoteFromMasterQuote>
+         <quoteData>
+            <quoteID>14112892</quoteID>
+            <customerCompEntityId>?</customerCompEntityId>
+            <customerEntityId>332062495</customerEntityId>
+            <dealerRACFID>X041870</dealerRACFID>
+         </quoteData>
+      </ver:createQuoteFromMasterQuote>
+   </soapenv:Body>
+</soapenv:Envelope>

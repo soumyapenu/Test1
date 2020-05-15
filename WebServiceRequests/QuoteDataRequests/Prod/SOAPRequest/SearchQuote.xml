@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version5_5.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:searchQuote>
+         <quoteSearchCriteria>
+            <customerBusinessName></customerBusinessName>
+            <customerFirstName></customerFirstName>
+            <customerLastName></customerLastName>
+            <modelName></modelName>
+            <quoteName></quoteName>
+            <salespersonID></salespersonID>
+            <stockNumber></stockNumber>
+            <beginDate>2020-02-27</beginDate>
+            <endDate></endDate>
+            <quoteID></quoteID>
+            <quoteType></quoteType>
+            <dealerAccountNumber>033305</dealerAccountNumber>
+            <orderFormExist>true</orderFormExist>
+            <poNumber>06838441</poNumber>
+         </quoteSearchCriteria>
+      </ver:searchQuote>
+   </soapenv:Body>
+</soapenv:Envelope> 

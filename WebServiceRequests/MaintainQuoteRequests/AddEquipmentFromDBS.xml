@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version6_6.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:addEquipmentFromDBS>
+         <dbsEquipmentSearchCriteriaData>
+            <dealerRacfId>X250102</dealerRacfId>
+            <quoteID>14127175</quoteID>
+            <stockNumber>0101C030159</stockNumber>
+         </dbsEquipmentSearchCriteriaData>
+      </ver:addEquipmentFromDBS>
+   </soapenv:Body>
+</soapenv:Envelope>

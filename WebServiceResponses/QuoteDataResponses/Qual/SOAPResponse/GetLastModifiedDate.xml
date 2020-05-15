@@ -1,0 +1,1 @@
+<?xml version="1.0" ?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getLastModifiedDateResponse xmlns:ns2="http://version5_5.services.view.jdquote.deere.com"><getLastModifiedDateReturn><modifiedDate>2020-04-29T13:40:02.962-05:00</modifiedDate></getLastModifiedDateReturn></ns2:getLastModifiedDateResponse></S:Body></S:Envelope>

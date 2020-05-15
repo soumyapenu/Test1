@@ -1,0 +1,164 @@
+{
+	"type": "SUCCESS",
+	"body": {
+		"errorMessage": null,
+		"quoteDetail": {
+			"agreementInformation": {
+				"agreementDate": 1588050000000,
+				"dateDueBack": null,
+				"dayOut": null,
+				"signDate": null
+			},
+			"equipmentWillBeUsedAt": {
+				"city": null,
+				"county": "191",
+				"state": "VA",
+				"equipUsedAtName": null,
+				"addressLine1": null,
+				"postalCode": null,
+				"contactPhone": null
+			},
+			"insuranceLossPayee": null,
+			"officeUse": null,
+			"purchaserInformation": {
+				"contact": "",
+				"county": "Washington",
+				"email": "",
+				"phoneNumber": "6288517",
+				"purchaserAcct": "",
+				"salesTaxExempt": ""
+			},
+			"purchaserTypeInformation": {
+				"marketUse": "15 Row Crop/Small Grain",
+				"purchaserType": "8 Residential",
+				"transactionType": "Cash Sale"
+			},
+			"rentalCharges": null,
+			"customerNote": "<p >Please_Ignore_PO_Comments:Test 1</p>",
+			"balanceDue": 0.05,
+			"creationDate": "2020-04-28",
+			"customer": {
+				"address": {
+					"addressLine1": "PO BOX 222B",
+					"addressLine2": null,
+					"city": "ABINGDON",
+					"country": "US",
+					"county": "Washington",
+					"state": "VA",
+					"zip": "24212"
+				},
+				"businessName": "JOE C & MARIE E HEARL ",
+				"contact": {
+					"compEntityId": 0,
+					"firstName": null,
+					"lastName": null
+				},
+				"entityId": 102136198,
+				"firstName": "",
+				"lastName": "",
+				"phoneNumber": "6288517"
+			},
+			"dealerAccountNumber": "010102",
+			"dealerNote": "",
+			"equipments": {
+				"equipmentNote": null,
+				"additionalDiscounts": [],
+				"estimatedDealerProfit": null,
+				"adjustments": {
+					"costPrice": 0.0,
+					"description": "Price Increase",
+					"listPrice": 0.0,
+					"id": 560259585
+				}],
+				"attachmentOrAccessories": [],
+				"canadianAdjustments": {
+					"adjustmentPct": 0.0,
+					"description": "CPA/CA/Surcharge                                            ",
+					"id": 1,
+					"applyToCostForCanadian": false
+				}],
+				"costPrice": 0.04,
+				"dealerOptions": [],
+				"dealerOrderNumber": "30084202",
+				"dealerStockNumber": "30084202",
+				"downPayment": 0.0,
+				"financeIncentive": null,
+				"inventoryStatus": "O",
+				"invoiceNumber": "",
+				"listPrice": 0.0,
+				"machineHours": "0",
+				"makeName": "JOHN DEERE",
+				"modelName": "WHL ASY,620/70R42 160A8 NP R",
+				"priceIncreasePct": 0.0,
+				"rentalApplied": 0.0,
+				"salesIncentives": [],
+				"serialNumber": "",
+				"serviceAgreements": [],
+				"status": "New",
+				"storeLocation": "",
+				"totalAttachmentAccMargin": 0.0,
+				"totalAttachmentAccSellingPrice": 0.0,
+				"totalDealerOptionMargin": 0.0,
+				"totalDealerOptionSellingPrice": 0.0,
+				"totalEquipmentMargin": 18.999973674991445,
+				"totalEquipmentSellingPrice": 0.05,
+				"transferDate": "",
+				"year": null,
+				"id": 49181815,
+				"categoryDescription": null,
+				"categoryId": null,
+				"subCategoryDescription": null,
+				"subCategoryId": null,
+				"contract": null,
+				"contractURL": null,
+				"contractState": null,
+				"contractType": null,
+				"serviceOnlyEquipment": "false",
+				"valueAddedServiceAgreements": []
+			}],
+			"expirationDate": "2020-12-23",
+			"financeIncentiveDetail": null,
+			"grossMargin": 20.000000000000004,
+			"grossProfit": 0.010000000000000002,
+			"lastModifiedDate": 1588064155389,
+			"netCost": 0.04,
+			"netProceeds": 0.05,
+			"quoteId": 20872346,
+			"quoteName": "SKR_Config_Test_Demo",
+			"quoteStatus": {
+				"description": "Active",
+				"id": 1
+			},
+			"quoteType": {
+				"description": "Purchase",
+				"id": 2
+			},
+			"salesPerson": {
+				"deereUserId": "X250102",
+				"firstName": "DAVID",
+				"lastName": "LIVELY",
+				"middleName": "A",
+				"emailAddress": "dlively@efe1963.com"
+			},
+			"taxAmount": 0.0,
+			"totalNetTradeValue": 0.0,
+			"tradeDifference": 0.05,
+			"tradeIns": [],
+			"downPayment": 0.0,
+			"quoteCredits": [],
+			"valueAddedServiceAgreements": [],
+			"podetails": {
+				"ceresApplicationId": null,
+				"deliveredOn": "",
+				"marketUse": "Row Crop/Small Grain",
+				"poStatus": "Active",
+				"purchaserType": "Residential",
+				"signedOnDate": "",
+				"transactionType": "Cash Sale",
+				"warrantyBegins": "",
+				"id": 0,
+				"poNumber": "6715003"
+			}
+		}
+	}
+}

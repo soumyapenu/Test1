@@ -1,0 +1,159 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version6_6.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:createUpdateQuote>
+         <quoteData>
+            <quoteID>16112808</quoteID>
+            <quoteName>Test</quoteName>
+            <quoteType>2</quoteType>
+            <quoteStatusId>1</quoteStatusId>
+            <creationDate></creationDate>
+            <expirationDate>10/09/2018</expirationDate>
+            <dealerRacfId>X250102</dealerRacfId>
+            <salesPerson>X250102</salesPerson>
+            <leadDealerId></leadDealerId>
+            <locationId>010102</locationId>
+            <quoteCurrency></quoteCurrency>
+            <financeType></financeType>
+            <closedLostReasonId>?</closedLostReasonId>
+            <closedLostMakeId>?</closedLostMakeId>
+            <lastModifiedDate>10-SEP-18</lastModifiedDate>
+            <custNotes>?</custNotes>
+            <totalEquipmentCost>?</totalEquipmentCost>
+            <totalNetTradeValue>?</totalNetTradeValue>
+            <customerTRAXEditQuoteURL>?</customerTRAXEditQuoteURL>
+            <customerData>
+               <customerBusinessName>TEST B</customerBusinessName>
+               <customerPhone></customerPhone>
+               <customerFirstName>?</customerFirstName>
+               <customerLastName>?</customerLastName>
+               <customerAddr1>OLD TOWN</customerAddr1>
+               <customerAddr2>?</customerAddr2>
+               <customerCity></customerCity>
+               <customerCountry>?</customerCountry>
+               <customerCounty>US</customerCounty>
+               <customerEmail>?</customerEmail>
+               <customerFax>?</customerFax>
+               <customerState></customerState>
+               <customerZipCode></customerZipCode>
+               <customerCommLocID>?</customerCommLocID>
+               <customerCommTypeID>?</customerCommTypeID>
+               <customerCompEntityId>0</customerCompEntityId>
+               <customerEntityId></customerEntityId>
+               <customerBusinessPhoneNumber>?</customerBusinessPhoneNumber>
+              <customerHomePhoneNumber>?</customerHomePhoneNumber>
+               <errorMessage>
+                  <errorId>?</errorId>
+                  <errorMessage>?</errorMessage>
+               </errorMessage>
+            </customerData>
+            <!--Zero or more repetitions:-->
+            <equipmentData>
+               <equipmentID>34130622</equipmentID>
+               <costPrice>150</costPrice>
+               <listPrice>500</listPrice>
+               <includeInRecapProposal>true</includeInRecapProposal>
+               <equipNotes></equipNotes>
+               <equipSourceId>7</equipSourceId>
+               <customerLatestMachMakeID></customerLatestMachMakeID>
+               <DBSPartsNumber></DBSPartsNumber>
+               <equipType></equipType>
+               <hourMeterReading></hourMeterReading>
+               <serialNo></serialNo>
+               <yearOfManufacture>2012</yearOfManufacture>
+               <dealerOrderNumber></dealerOrderNumber>
+               <registrationNumber></registrationNumber>
+               <equipmentOrderNumber></equipmentOrderNumber>
+               <dealerStockNumber>0101X019239</dealerStockNumber>
+               <canadianBonusPercentage></canadianBonusPercentage>
+               <canadianCPAorCAPercentage></canadianCPAorCAPercentage>
+               <categoryID></categoryID>
+               <dealerSpecifiedModel></dealerSpecifiedModel>
+               <dealerSpecifiedMake></dealerSpecifiedMake>
+               <makeID></makeID>
+               <modelID></modelID>
+               <subCategoryID></subCategoryID>
+               <pciModel></pciModel>
+               <sbu>AG</sbu>
+               <shipTo></shipTo>
+               <soldTo></soldTo>
+               <orderType></orderType>
+               <earlyShipmentIndicator></earlyShipmentIndicator>
+               <incoTerm></incoTerm>
+               <isAccessoryEquipment>false</isAccessoryEquipment>
+               <dummyBaseCode>5520M</dummyBaseCode>
+               
+               <!--Zero or more repetitions:-->
+               <equipmentOptionData>
+                  <optionId></optionId>
+                  <optionCode></optionCode>
+                  <optionCostAmount></optionCostAmount>
+                  <optionDesc></optionDesc>
+                  <optionPriceAmount></optionPriceAmount>
+                  <optionType></optionType>
+               </equipmentOptionData>
+               
+                          
+               <!--Zero or more repetitions:-->
+               <adjustmentData>
+                  <description></description>
+                  <costPrice></costPrice>
+                  <listPrice></listPrice>
+                  <errorMessage>
+                     <errorId></errorId>
+                     <errorMessage></errorMessage>
+                  </errorMessage>
+               </adjustmentData>
+               <!--Zero or more repetitions:-->
+               
+
+               <!--Zero or more repetitions:-->
+               <attachmentData>
+                  <attachmentID>4842114</attachmentID>
+                  <attachmentCode></attachmentCode>
+                  <attachmentType>4</attachmentType>
+                  <attachmentDescription>30" MULCHING KIT FOR 30"DECK</attachmentDescription>
+                  <costPrice>73.53</costPrice>
+                  <listtPrice>89</listtPrice>
+                  <errorMessage>
+                     <errorId></errorId>
+                     <errorMessage></errorMessage>
+                  </errorMessage>
+               </attachmentData>
+
+			
+               
+               <errorMessage>
+                  <errorId></errorId>
+                  <errorMessage></errorMessage>
+               </errorMessage>
+            </equipmentData>
+            <!--Zero or more repetitions:-->
+            <tradeInEquipmentData>
+               <tradeInID></tradeInID>
+               <description></description>
+               <includeInRecapProposal></includeInRecapProposal>
+               <hourMeterReading></hourMeterReading>
+               <serialNo></serialNo>
+               <yearOfManufacture></yearOfManufacture>
+               <categoryID></categoryID>
+               <dealerSpecifiedModel></dealerSpecifiedModel>
+               <dealerSpecifiedMake></dealerSpecifiedMake>
+               <makeID></makeID>
+               <modelID></modelID>
+               <subCategoryID></subCategoryID>
+               <netTradeValue></netTradeValue>
+               <tradeTaxAmount></tradeTaxAmount>
+               <errorMessage>
+                  <errorId></errorId>
+                  <errorMessage></errorMessage>
+               </errorMessage>
+            </tradeInEquipmentData>
+            <errorMessage>
+               <errorId></errorId>
+               <errorMessage></errorMessage>
+            </errorMessage>
+         </quoteData>
+      </ver:createUpdateQuote>
+   </soapenv:Body>
+</soapenv:Envelope>

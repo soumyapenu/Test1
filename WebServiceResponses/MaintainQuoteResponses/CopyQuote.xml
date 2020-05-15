@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ver="http://version6_6.services.view.jdquote.deere.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ver:copyQuote>
+         <quoteData>
+            <dealerID>X041870</dealerID>
+            <expirationDate>09/07/2019</expirationDate>
+            <quoteID>14127319</quoteID>
+         </quoteData>
+      </ver:copyQuote>
+   </soapenv:Body>
+</soapenv:Envelope>
